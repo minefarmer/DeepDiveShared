@@ -36,7 +36,7 @@ for k in common.__dict__.keys():
 
 
 print('\n\n***** validators *****')
-for k in common.validators.__dict__.keys():
+for k in shared.validators.__dict__.keys():
     print(k)  # ****** validators *****
             # __name__
             # __doc__
@@ -52,7 +52,7 @@ for k in common.validators.__dict__.keys():
             # json
             # numeric
 
-TODO: 140  25:50 mark
+
 
 
 # print('\n\n***** models *****')

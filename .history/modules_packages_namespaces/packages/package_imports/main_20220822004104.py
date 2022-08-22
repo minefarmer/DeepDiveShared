@@ -1,8 +1,8 @@
 #  package shared main
-import common.validators as validators
-import common
+import shared.validators
 
 
+shared.validators.boolean.is_boolean('true')
 
 
 print('\n\n***** self *****')
@@ -21,7 +21,7 @@ for k in dict(globals()).keys():
 
 
 print('\n\n***** common *****')
-for k in common.__dict__.keys():
+for k in shared.__dict__.keys():
     print(k)  # ***** common *****
             #__name__
             # __doc__
@@ -36,7 +36,7 @@ for k in common.__dict__.keys():
 
 
 print('\n\n***** validators *****')
-for k in common.validators.__dict__.keys():
+for k in shared.validators.__dict__.keys():
     print(k)  # ****** validators *****
             # __name__
             # __doc__
@@ -52,7 +52,7 @@ for k in common.validators.__dict__.keys():
             # json
             # numeric
 
-TODO: 140  25:50 mark
+
 
 
 # print('\n\n***** models *****')

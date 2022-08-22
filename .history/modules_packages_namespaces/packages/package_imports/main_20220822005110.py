@@ -52,7 +52,7 @@ for k in common.validators.__dict__.keys():
             # json
             # numeric
 
-TODO: 140  25:50 mark
+TODO: 140  25
 
 
 # print('\n\n***** models *****')
