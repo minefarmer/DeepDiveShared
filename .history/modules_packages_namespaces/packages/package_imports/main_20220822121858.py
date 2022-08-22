@@ -74,7 +74,7 @@ for k in common.validators.__dict__.keys():
 
 
 print('\n\n***** numeric *****')
-for k in common.validators.numeric.__dict__.keys():
+for k in shared.validators.numeric.__dict__.keys():
     print(k)  # ***** numeric *****
             # __name__
             # __doc__
