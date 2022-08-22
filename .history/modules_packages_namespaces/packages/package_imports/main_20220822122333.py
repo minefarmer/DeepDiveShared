@@ -2,13 +2,7 @@
 import common.validators as validators
 import common
 
-validators.is_boolean('true')
-validators.is_json("{}")
-validators.is_numeric(10)
-validators.is_date('2022-0822')
-
-from common.validators import *
-
+validators.is_boolean
 
 
 print('\n\n***** self *****')

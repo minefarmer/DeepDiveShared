@@ -1,6 +1,6 @@
 # validators date
 
-# __all__ = ['is_date']
+__all__ = ['is_date']
 
 def is_date(arg):
     pass

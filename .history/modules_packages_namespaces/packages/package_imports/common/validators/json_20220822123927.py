@@ -1,6 +1,6 @@
 # validator json
 
-# __all__ = ['is_json']
+__
 
 def is_json(arg):
     pass

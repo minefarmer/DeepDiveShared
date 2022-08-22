@@ -1,6 +1,6 @@
 # validators numeric
 
-# __all__ ['is_integer', 'is_numeric']
+__all__ ['is']
 def is_integer(arg):
     pass
 
