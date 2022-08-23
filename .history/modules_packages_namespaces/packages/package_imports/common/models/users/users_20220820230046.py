@@ -1,6 +1,6 @@
 # users.py
 
-__all__ = ['User']
+
 class User:
     pass
 

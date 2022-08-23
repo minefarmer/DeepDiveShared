@@ -1,0 +1,4 @@
+# model init
+
+from .user
+

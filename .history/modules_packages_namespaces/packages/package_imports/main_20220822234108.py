@@ -1,6 +1,9 @@
 #  package shared main
 import common
 import common.validators as validators
+import common.models.posts
+
+
 
 
 validators.is_boolean('true')
