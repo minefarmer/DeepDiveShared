@@ -26,9 +26,9 @@ for k in dict(globals()).keys():
             # common
 
 
-print('\n\n***** common *****')
-for k in common.__dict__.keys():
-    print(k)  # ***** common *****
+# print('\n\n***** common *****')
+# for k in common.__dict__.keys():
+#     print(k)  # ***** common *****
             #__name__
             # __doc__
             # __package__
@@ -61,9 +61,9 @@ for k in common.validators.__dict__.keys():
 
 
 
-# print('\n\n***** models *****')
-# for k in common.models.__dict__.keys():
-#     print(k)  # ***** validators *****
+print('\n\n***** models *****')
+for k in common.models.__dict__.keys():
+    print(k)  # ***** validators *****
             # __name__
             # __doc__
             # __package__

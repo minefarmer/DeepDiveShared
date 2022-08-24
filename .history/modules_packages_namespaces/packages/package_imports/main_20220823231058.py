@@ -1,6 +1,7 @@
 #  package shared main
-import common.validators as validators
 import common
+import common.validators as validators
+
 
 validators.is_boolean('true')
 validators.is_json("{}")
